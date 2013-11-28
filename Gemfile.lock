@@ -29,6 +29,7 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.1)
     atomic (1.1.14)
+    awesome_print (1.2.0)
     better_errors (1.0.1)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
@@ -163,6 +164,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-tableless
+  awesome_print
   better_errors
   coffee-rails (~> 4.0.0)
   compass-rails (~> 2.0.alpha.0)
