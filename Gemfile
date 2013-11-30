@@ -26,3 +26,8 @@ group :development do
 	gem 'rails_layout'
 	gem 'awesome_print', :require => 'ap'
 end
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+	gem 'thin'
+end
